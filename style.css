@@ -10,15 +10,30 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
+    background-color: aliceblue;
 }
+
+h1{
+
+}
+
+.underline{
+    margin-bottom: 3%;
+    border-bottom: 4px solid rgb(75, 75, 255);
+    height: 5px;
+    width: 15%;
+}
+
 .main-container{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;
     width: 40%;
-    height: 60%;
+    min-height: 80%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: white;
 }
 
 .search-container{
@@ -36,6 +51,7 @@ body{
     border-color: rgb(75, 75, 255);
     outline: none;
     width: 70%;
+    font-size: 1em;
 }
 
 .input-button{
@@ -53,7 +69,7 @@ body{
     width: 90%;
     display: flex;
     flex-direction: column;
-    height: 60%;
+    height: 80%;
     justify-content: space-around;
 }
 
@@ -61,5 +77,21 @@ body{
     font-size: large;
     font-weight: 100;
     padding-left: 4%;
+}
+
+.results-container img{
+    display: block;
+    width:45%;
+    margin: 4% 30%
+}
+
+.Name{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: large;
 }
 
